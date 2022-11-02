@@ -1,0 +1,450 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    font-size: 16px;
+    background-color: #59d058;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.banner {
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+}
+
+.backgroundImg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0%;
+}
+
+.nav ul li {
+    padding: 7px;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+.navbar {
+    position: absolute;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav_sec1 {
+    width: 400px;
+}
+
+.nav_sec2 {
+    margin-left: 100px;
+}
+
+.nav_sec1,
+.nav_sec2,
+.nav_sec3 {
+    font-size: 16px;
+}
+
+.nav_sec3 {
+    margin-left: 250px;
+    padding-top: 15px;
+}
+
+.fa-search {
+    padding: 5px;
+    background: none;
+    color: #ffffff;
+    border: none;
+}
+
+.nav_sec3 button {
+    border-radius: 0px 30px 30px 0px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.searchBox {
+    padding: 5px;
+    background-color: rgba(156, 156, 156, 0.5);
+    border-radius: 30px 0px 0px 30px;
+    color: #ffffff;
+    border: none;
+}
+
+.searchBox::placeholder {
+    color: #808080;
+}
+
+/*What we do*/
+.whatWeDo {
+    font-weight: light;
+    text-align: center;
+}
+
+.flexing {
+    display: flex;
+}
+
+.flex1 {
+    text-align: center;
+}
+
+.boderContainer {
+    margin-left: 36%;
+    font-size: 30px;
+    width: fit-content;
+    background-color: #e2f4dc;
+    border-radius: 30px;
+    padding: 5px 40px 5px 40px;
+    color: #59d058;
+
+}
+
+/* ourLatestWork */
+.ourLatestWork {
+    background-color: #54d054;
+    text-align: center;
+}
+
+.print,
+.photography,
+.design {
+    cursor: pointer;
+    border-style: none;
+    padding: 5px;
+}
+
+hr {
+    background-color: #299b2a;
+    width: 5%;
+    font-weight: bold;
+}
+
+.photography {
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.print {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.ourLatestWork .firstPara {
+    font-weight:normal;
+    color: #2a9c2d;
+    padding-top: 20px;
+}
+
+.ourLatestWork p {
+    font-weight: lighter;
+
+}
+
+.ourLatestWork button:focus {
+    color: #ffffff;
+    background-color: #299b2a;
+}
+
+.imageContainer img {
+    width: 100px;
+}
+
+.imageContainer {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.viewMore {
+    background-color: #2f9a2e;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.ourLatestWork button {
+    margin-top: 20px;
+}
+
+/* teestimonial */
+.testimonials p {
+    text-align: center;
+}
+
+.slideshow-container {
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.active,
+.dot:hover {
+    background-color: #2d992e;
+    border-bottom: 1px;
+}
+
+/* our happy client */
+.ourClient {
+    background-color: #f2f0f1;
+    text-align: center;
+}
+.ourClient p{
+    padding-top: 10px;
+}
+.fontContainer {
+    font-size: 28px;
+    margin-left: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourClient p {
+    color: #828081;
+    font-size: 16;
+    font-weight: lighter;
+}
+
+.fontContainer .fa {
+    cursor: pointer;
+    color: #828081;
+}
+
+.fontContainer .fa:hover {
+    color: #299b2a;
+}
+
+.clientButton {
+    color: #b6b4b5;
+    background-color: #dcdadb;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* profile */
+.profile img {
+    width: 150px;
+    border-radius: 100%;
+    padding: 20px;
+}
+.vertical{
+    display: flex;
+    height: 15px;
+    width: 1000px;
+}
+.vertical hr {
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 135px;
+}
+#hr2{
+    margin-left: 125px;
+}
+#hr3{
+    margin-left: 100px;
+}
+#hr4{
+    margin-left: 135px;
+}
+.meetTheteam{
+    text-align: center;
+    margin: 0px;
+    background-color: #54d054;
+}
+.meetTheteam .firstp{
+    padding-top: 30px;
+    margin: 0px;
+}
+.profileName{
+    display: flex;
+    padding-top: 10px;
+}
+
+.name1{
+    margin-left: 110px;
+}
+.name2{
+    margin-left: 140px;
+}
+.name3{
+    margin-left: 120px;
+}
+.name4{
+    margin-left: 160px;
+}
+.name5{
+    margin-left: 140px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: #c0e9cc;
+}
+.social p{
+    padding-bottom: 0%;
+}
+.profileUsers{
+    display: flex;
+    justify-content: space-around;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+.profileUsers{
+    padding-bottom: 10px;
+}
+.social2{
+    background-color: #e5e9ef;
+    display: flex;
+    color: #299b2a;
+    padding: 3px;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+.MeetTheTeambtn button{
+    font-size: 16px;
+    background-color: #2d992e;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+/* About us , RECENT PHOTO , CONTACT US */
+.aboutMainContainer{
+    background-color: #333333;
+
+}
+.aboutCompany{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 10px;
+    color: #ffffff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.post1{
+    padding: 10px;
+    display: flex;
+    font-size: 10px;
+}
+.post1 button{
+    font-size: 10px;
+}
+.post1 img{
+    width: 50px;
+    height: 50px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputContainer input, .inputContainer textarea{
+    background-color: #444444;
+    margin-top: 10px;
+    padding: 3px;
+    border-style: none;
+}
+.submit{
+    background-color: #2a9c2d;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+/* footer */
+.last{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+.last p{
+    margin: 0px;
+}
